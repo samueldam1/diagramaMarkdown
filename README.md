@@ -7,7 +7,7 @@ graph TD;
     Coches-->Gasolina;
     Gasolinera-->Gasolina;
 ```
-
+Ejemplo de diagrama de secuencia:
 ```mermaid
 sequenceDiagram
     participant Alice
@@ -21,7 +21,7 @@ sequenceDiagram
     John->>Bob: How about you?
     Bob-->>John: Jolly good!
 ```
-
+Ejemplo de diagrama de GANTT
 ```mermaid
 gantt
 dateFormat  YYYY-MM-DD
@@ -34,7 +34,7 @@ TAREA ACTIVA               :active,  des2, 2022-10-12, 3d
 TAREA FUTURA               :         des3, after des2, 5d
 TAREA FUTURA 2               :         des4, after des3, 5d
 ```
-Diagrama de clase
+Ejemplo de diagrama de clase
 ```mermaid
 classDiagram
 Clase01 <|-- Main : main
@@ -51,7 +51,7 @@ Clase01 : int i
 Clase01 : int suma
 Clase08 <--> C2: Cool label
 ```
-
+Ejemplo de gráfico de git:
 ```mermaid
     gitGraph
        commit
@@ -68,6 +68,7 @@ Clase08 <--> C2: Cool label
        commit
        commit
 ```
+Ejemplo esquema entidad relación:
 ```mermaid
 erDiagram
     Cliente ||--o{ Pedido : ordena
@@ -75,6 +76,7 @@ erDiagram
     Cliente }|..|{ Direccion : usa
     Producto ||--|{ Direccion : llega
 ```
+Ejemplo horario:
 ```mermaid
 journey
     title Mi dia
