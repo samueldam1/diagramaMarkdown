@@ -70,18 +70,19 @@ Clase08 <--> C2: Cool label
 ```
 ```mermaid
 erDiagram
-    Cliente ||--o{ Pedido : Producto
+    Cliente ||--o{ Pedido : ordena
     Pedido ||--|{ Producto: contiene
     Cliente }|..|{ Direccion : usa
+    Producto ||--|{ Direccion : llega
 ```
 ```mermaid
 journey
     title Mi dia
-    section Ir a clase
-      Make tea: 5: Me
-      Go upstairs: 3: Me
-      Do work: 1: Me, Cat
-    section Go home
-      Go downstairs: 5: Me
-      Sit down: 5: Me
+    section MAÑANA
+      Despertar: 1: Yo, Gato
+      Ducha: 4: Yo
+      Tomar bus: 2: Yo
+    section CLASE
+      Programacion: 6: Yo
+      Sistemas informaticos: 3: Yo
 ```
