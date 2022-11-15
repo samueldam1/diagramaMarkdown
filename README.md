@@ -1,9 +1,9 @@
-# Ejemplo
-## Ejemplo
-###### Ejemplo
+# Titulo 1
+## Titulo 2
+###### Subtitulo
 
 **Negrita**
-**
+_Cursiva_
 ~~Tachado~~
 **Negrita _cursiva_ negrita **
 ***Negrita cursiva***
@@ -11,7 +11,6 @@
 <sup>Texto superindice</sup>
 > Cita
 > 
-Use `git status` to list all new or modified files that haven't yet been committed.
 
 Comandos de git:
 ```
@@ -20,11 +19,8 @@ git add
 git commit
 ```
 The background color should be `#ffffff` for light mode and `#0d1117` for dark mode.
-Rendered supported color model.
 
-Here are the currently supported color models.
-
-https://github.com/samueldam1/diagramaMarkdown
+Link: https://github.com/samueldam1/diagramaMarkdown
 
 ![img](https://myoctocat.com/assets/images/base-octocat.svg)
 
@@ -40,11 +36,11 @@ https://github.com/samueldam1/diagramaMarkdown
    - First nested list item
      - Second nested list item
 
-- [x] #739
+- [ ] #739
 - [ ] https://github.com/octo-org/octo-repo/issues/740
-- [ ] :+1: :tada:
+- [x] :+1: :tada:
 
-@github/support What do you think about these updates
+@github Mención
 
 Ejemplo de gráfico:
 ```mermaid
