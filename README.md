@@ -2,24 +2,25 @@ Ejemplo de gráfico:
 
 ```mermaid
 graph TD;
-    Personas-->Coches;
-    Personas-->Gasolinera;
-    Coches-->Gasolina;
-    Gasolinera-->Gasolina;
+    A-->A.1;
+    A-->A.2;
+    A.2-->A.1.1;
+    A.2-->A.1.2;
+    A.1.2-->A.1.2.1
+    A.1.2-->A.1.2.2
 ```
 Ejemplo de diagrama de secuencia:
 ```mermaid
 sequenceDiagram
-    participant Alice
-    participant Bob
-    Alice->>John: Hello John, how are you?
-    loop Healthcheck
-        John->>John: Fight against hypochondria
+    participant Usuario
+    participant Maquina
+    Usuario->>Maquina: efectivo
+    Maquina-->>Usuario: recibo
+    loop Dame el ticket
+         Usuario->>Maquina: Puñetazos hasta que funcione
     end
-    Note right of John: Rational thoughts <br/>prevail!
-    John-->>Alice: Great!
-    John->>Bob: How about you?
-    Bob-->>John: Jolly good!
+    Maquina->>Usuario: ticket
+    Note right of Maquina: Sin miedo que es del Concello.
 ```
 Ejemplo de diagrama de GANTT
 ```mermaid
@@ -38,18 +39,17 @@ Ejemplo de diagrama de clase
 ```mermaid
 classDiagram
 Clase01 <|-- Main : main
-Clase03 *-- Class04
-Clase05 o-- Class06
-Clase07 .. Class08
-Clase09 --> C2 : Where am i?
-Clase09 --* C3
-Clase09 --|> Class07
+Clase02 *-- Clase04
+Clase03 o-- Clase05
+Clase04 .. Clase06
+Clase05 --> C2 : Pedir numero int
+Clase06 <--> C2: return
+Clase07 --|> Class09
 Clase07 : Scanner.nextFloat()
 Clase07 : Object[] elementData
 Clase01 : Scanner.nextInt()
 Clase01 : int i
 Clase01 : int suma
-Clase08 <--> C2: Cool label
 ```
 Ejemplo de gráfico de git:
 ```mermaid
