@@ -2,16 +2,18 @@
 ## Ejemplo
 ###### Ejemplo
 
-**This is bold text**
-*This text is italicized*
-~~This was mistaken text~~
-**This text is _extremely_ important**
-***All this text is important***
-<sub>This is a subscript text</sub>	
-<sup>This is a superscript text</sup>
-> Text that is a quote
+**Negrita**
+**
+~~Tachado~~
+**Negrita _cursiva_ negrita **
+***Negrita cursiva***
+<sub>Texto subindice</sub>	
+<sup>Texto superindice</sup>
+> Cita
+> 
 Use `git status` to list all new or modified files that haven't yet been committed.
-Some basic Git commands are:
+
+Comandos de git:
 ```
 git status
 git add
@@ -22,13 +24,9 @@ Rendered supported color model.
 
 Here are the currently supported color models.
 
-Color	Syntax	Example	Output
-HEX	`#RRGGBB`	`#0969DA`	Rendered supported color model in HEX format.
-RGB	`rgb(R,G,B)`	`rgb(9, 105, 218)`	Rendered supported color model in RGB format.
-HSL	`hsl(H,S,L)`	`hsl(212, 92%, 45%)`
 https://github.com/samueldam1/diagramaMarkdown
 
-![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
+![img](https://myoctocat.com/assets/images/base-octocat.svg)
 
 - George Washington
 - John Adams
@@ -44,13 +42,9 @@ https://github.com/samueldam1/diagramaMarkdown
 
 - [x] #739
 - [ ] https://github.com/octo-org/octo-repo/issues/740
-- [ ] Add delight to the experience when all tasks are complete :tada:
+- [ ] :+1: :tada:
 
-@github/support What do you think about these updates?
-@octocat :+1: This PR looks great - it's ready to merge! :shipit:
-
-
-
+@github/support What do you think about these updates
 
 Ejemplo de gráfico:
 ```mermaid
