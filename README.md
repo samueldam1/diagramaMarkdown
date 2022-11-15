@@ -1,5 +1,58 @@
-Ejemplo de gráfico:
+# Ejemplo
+## Ejemplo
+###### Ejemplo
 
+**This is bold text**
+*This text is italicized*
+~~This was mistaken text~~
+**This text is _extremely_ important**
+***All this text is important***
+<sub>This is a subscript text</sub>	
+<sup>This is a superscript text</sup>
+> Text that is a quote
+Use `git status` to list all new or modified files that haven't yet been committed.
+Some basic Git commands are:
+```
+git status
+git add
+git commit
+```
+The background color should be `#ffffff` for light mode and `#0d1117` for dark mode.
+Rendered supported color model.
+
+Here are the currently supported color models.
+
+Color	Syntax	Example	Output
+HEX	`#RRGGBB`	`#0969DA`	Rendered supported color model in HEX format.
+RGB	`rgb(R,G,B)`	`rgb(9, 105, 218)`	Rendered supported color model in RGB format.
+HSL	`hsl(H,S,L)`	`hsl(212, 92%, 45%)`
+https://github.com/samueldam1/diagramaMarkdown
+
+![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
+
+- George Washington
+- John Adams
+- Thomas Jefferson
+
+1. James Madison
+2. James Monroe
+3. John Quincy Adams
+
+1. First list item
+   - First nested list item
+     - Second nested list item
+
+- [x] #739
+- [ ] https://github.com/octo-org/octo-repo/issues/740
+- [ ] Add delight to the experience when all tasks are complete :tada:
+
+@github/support What do you think about these updates?
+@octocat :+1: This PR looks great - it's ready to merge! :shipit:
+
+
+
+
+Ejemplo de gráfico:
 ```mermaid
 graph TD;
     A-->A.1;
