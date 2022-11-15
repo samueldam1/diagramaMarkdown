@@ -20,7 +20,7 @@ git commit
 ```
 The background color should be `#ffffff` for light mode and `#0d1117` for dark mode.
 
-Link: https://github.com/samueldam1/diagramaMarkdown
+Link: [Repositorio](https://github.com/samueldam1/diagramaMarkdown)
 
 ![img](https://myoctocat.com/assets/images/base-octocat.svg)
 
